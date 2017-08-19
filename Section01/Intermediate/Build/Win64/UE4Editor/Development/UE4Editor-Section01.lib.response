@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Section01.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Unreal\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Dirk\Documents\Unreal Projects\UnrealLaboratory\Section01\Intermediate\Build\Win64\UE4Editor\Development\Section01\Section01.cpp.obj"
+"C:\Users\Dirk\Documents\Unreal Projects\UnrealLaboratory\Section01\Intermediate\Build\Win64\UE4Editor\Development\Section01\Section01GameModeBase.cpp.obj"
+"C:\Users\Dirk\Documents\Unreal Projects\UnrealLaboratory\Section01\Intermediate\Build\Win64\UE4Editor\Development\Section01\Section01.init.gen.cpp.obj"
+"C:\Users\Dirk\Documents\Unreal Projects\UnrealLaboratory\Section01\Intermediate\Build\Win64\UE4Editor\Development\Section01\Section01GameModeBase.gen.cpp.obj"
+"C:\Unreal\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Section01\PCLaunch.rc.res"
+"C:\Unreal\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Dirk\Documents\Unreal Projects\UnrealLaboratory\Section01\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Section01.lib"
