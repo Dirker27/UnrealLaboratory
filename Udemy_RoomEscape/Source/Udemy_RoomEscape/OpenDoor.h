@@ -31,4 +31,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
+
+	AActor* WhitelistedActor;
+
+private:
+	virtual void Open();
 };
