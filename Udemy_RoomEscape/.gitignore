@@ -81,4 +81,5 @@ DerivedDataCache/*
 ###########################################################
 # Custom Excludes
 ###########################################################
-Content/StarterContent/
+Content/StarterContent/Textures
+Content/StarterContent/HDRI
