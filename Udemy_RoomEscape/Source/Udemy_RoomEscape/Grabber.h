@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "Grabber.generated.h"
 
 
@@ -26,8 +27,16 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
-	float GripStrength = 1.0f;
+	float ReachLength = 100.0f;
+	UPROPERTY(EditAnywhere)
+	float GripStrength = 100.0f;
 
 private:
-	AActor* GrabbedObject;
+	UInputComponent* Input = nullptr;
+	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+
+	void BindInput();
+
+	// Project a ray and grab any physics body that intersects
+	void Grab();
 };
