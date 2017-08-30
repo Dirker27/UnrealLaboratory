@@ -1,9 +1,11 @@
 // Copyright ToasterCat Productions LLC - Please don't steal our shit.
 
 #include "Grabber.h"
-
-#include "Engine/World.h"
 #include "DrawDebugHelpers.h"
+#include "Components/ActorComponent.h"
+#include "Components/PrimitiveComponent.h"
+#include "Engine/EngineTypes.h"
+#include "Engine/World.h"
 
 #define OUT
 
@@ -23,19 +25,55 @@ UGrabber::UGrabber()
 void UGrabber::BeginPlay()
 {
 	Super::BeginPlay();
+	this->ValidatePhysicsHandle();
+	this->BindInput();
+}
 
-	///- Dependency Init + Validation -----------------------=
-	///
+void UGrabber::ValidatePhysicsHandle()
+{
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
-	if (! PhysicsHandle)
+	if (!PhysicsHandle)
 	{
 		UE_LOG(LogTemp, Error, TEXT("[Grabber] Missing required component: PhysicsHandle."));
 	}
+}
+
+// Called every frame
+void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
+{
+	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	///- If we've got something, move it -----------------=
+	///
+	if (PhysicsHandle->GrabbedComponent)
+	{
+		///- Calc target location ------------------------=
+		///
+		FVector PlayerVPLocation;
+		FRotator PlayerVPRotation;
+		GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+			OUT PlayerVPLocation,
+			OUT PlayerVPRotation
+		);
+		FVector PlayerReachEnd = PlayerVPLocation + (PlayerVPRotation.Vector() * ReachLength);
+
+		/// Apply
+		PhysicsHandle->SetTargetLocation(PlayerReachEnd);
+	}
+}
+
+
+void UGrabber::BindInput()
+{
+	///- Input Component ---------------------------------=
 	///
 	Input = GetOwner()->FindComponentByClass<UInputComponent>();
 	if (Input)
 	{
-		BindInput();
+		///- Actual Bindings -----------------------------=
+		///
+		Input->BindAction("GRAB", IE_Pressed, this, &UGrabber::Grab);
+		Input->BindAction("GRAB", IE_Released, this, &UGrabber::Release);
 	}
 	else
 	{
@@ -43,19 +81,33 @@ void UGrabber::BeginPlay()
 	}
 }
 
-void UGrabber::BindInput() {
-	Input->BindAction("GRAB", IE_Pressed, this, &UGrabber::Grab);
-}
-
-
-// Called every frame
-void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
-	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-}
-
 void UGrabber::Grab()
 {
+	FHitResult Hit = GetFirstPhysicsBodyInReach();
+	UPrimitiveComponent* ComponentToGrab = Hit.GetComponent();
+	AActor* HitActor = Hit.GetActor();
+
+	if (HitActor) // if HitActor != nullptr
+	{
+		PhysicsHandle->GrabComponent(
+			ComponentToGrab,
+			NAME_None,
+			ComponentToGrab->GetOwner()->GetActorLocation(),
+			true
+		);
+		UE_LOG(LogTemp, Warning, TEXT("[Grabber] Currently Grabbing Actor[%s]."), *HitActor->GetName());
+	}
+}
+
+void UGrabber::Release()
+{
+	UE_LOG(LogTemp, Warning, TEXT("[Grabber] Released Grab."));
+}
+
+const FHitResult UGrabber::GetFirstPhysicsBodyInReach()
+{
+	FHitResult HitResult;
+
 	///- Get player location + rotation ---------------------=
 	///
 	FVector PlayerVPLocation;
@@ -84,7 +136,6 @@ void UGrabber::Grab()
 
 	///- Cast Ray ----------------------------------------=
 	///
-	FHitResult HitResult;
 	bool hit = GetWorld()->LineTraceSingleByObjectType(
 		OUT HitResult,
 		PlayerVPLocation,
@@ -93,8 +144,5 @@ void UGrabber::Grab()
 		FCollisionQueryParams(FName(TEXT("")), false, GetOwner())
 	);
 
-	if (hit)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("[Grabber] Currently Grabbing Actor[%s]"), *HitResult.GetActor()->GetName());
-	}
+	return HitResult;
 }
