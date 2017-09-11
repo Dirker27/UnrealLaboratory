@@ -32,6 +32,8 @@ private:
 	float ClosedAngle = 0.0f;
 	UPROPERTY(EditAnywhere)
 	float DoorCloseDelay = 1.5f;
+	UPROPERTY(EditAnywhere)
+	float TotalTriggerMass = 25.0f;
 
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate;
@@ -39,9 +41,13 @@ private:
 private:
 	AActor* Owner;
 
-	AActor* WhitelistedActor;
 	float LastTimeDoorOpened = 0.0f;
 
+	// Opens door to specified OpenAngle
 	void Open();
+	// Closes door to specified ClosedAngle
 	void Close();
+
+	// Returns pressure plate mass in [kg]
+	float CalculateTotalMassOfActorsOnPlate();
 };
