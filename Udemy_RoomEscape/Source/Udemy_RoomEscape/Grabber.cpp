@@ -47,18 +47,8 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 	///
 	if (PhysicsHandle->GrabbedComponent)
 	{
-		///- Calc target location ------------------------=
-		///
-		FVector PlayerVPLocation;
-		FRotator PlayerVPRotation;
-		GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
-			OUT PlayerVPLocation,
-			OUT PlayerVPRotation
-		);
-		FVector PlayerReachEnd = PlayerVPLocation + (PlayerVPRotation.Vector() * ReachLength);
-
-		/// Apply
-		PhysicsHandle->SetTargetLocation(PlayerReachEnd);
+		FVector NewGrabbedLocation = CalculateReachLineEnd();
+		PhysicsHandle->SetTargetLocation(NewGrabbedLocation);
 	}
 }
 
@@ -105,12 +95,47 @@ void UGrabber::Release()
 	UE_LOG(LogTemp, Warning, TEXT("[Grabber] Released Grab."));
 }
 
+void UGrabber::DrawReachLine()
+{
+	FVector ReachStart = CalculateReachLineStart();
+	FVector ReachEnd = CalculateReachLineEnd();
+
+	///- Debug Line -----------------------------------------=
+	///
+	DrawDebugLine(
+		GetWorld(),
+		ReachStart,
+		ReachEnd,
+		FColor(255, 0, 0),
+		false,
+		0.f,
+		0,
+		GripStrength / 10.f
+	);
+}
+
 const FHitResult UGrabber::GetFirstPhysicsBodyInReach()
 {
 	FHitResult HitResult;
 
-	///- Get player location + rotation ---------------------=
+	FVector ReachStart = CalculateReachLineStart();
+	FVector ReachEnd = CalculateReachLineEnd();
+
+	///- Cast Ray ----------------------------------------=
 	///
+	bool hit = GetWorld()->LineTraceSingleByObjectType(
+		OUT HitResult,
+		ReachStart,
+		ReachEnd,
+		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
+		FCollisionQueryParams(FName(TEXT("")), false, GetOwner())
+	);
+
+	return HitResult;
+}
+
+FVector UGrabber::CalculateReachLineStart()
+{
 	FVector PlayerVPLocation;
 	FRotator PlayerVPRotation;
 	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
@@ -118,32 +143,17 @@ const FHitResult UGrabber::GetFirstPhysicsBodyInReach()
 		OUT PlayerVPRotation
 	);
 
-	///- Visual Debugging -----------------------------------=
-	///
-	///UE_LOG(LogTemp, Warning, TEXT("[Grabber] Player Looking At: Loc[%s] Rot[%s]"),
-	///	*PlayerVPLocation.ToCompactString(), *PlayerVPRotation.ToCompactString()
-	///);
-	FVector PlayerReachEnd = PlayerVPLocation + (PlayerVPRotation.Vector() * ReachLength);
-	DrawDebugLine(
-		GetWorld(),
-		PlayerVPLocation,
-		PlayerReachEnd,
-		FColor(255, 0, 0),
-		false,
-		0.f,
-		0,
-		GripStrength / 10.f
+	return PlayerVPLocation;
+}
+
+FVector UGrabber::CalculateReachLineEnd()
+{
+	FVector PlayerVPLocation;
+	FRotator PlayerVPRotation;
+	GetWorld()->GetFirstPlayerController()->GetPlayerViewPoint(
+		OUT PlayerVPLocation,
+		OUT PlayerVPRotation
 	);
 
-	///- Cast Ray ----------------------------------------=
-	///
-	bool hit = GetWorld()->LineTraceSingleByObjectType(
-		OUT HitResult,
-		PlayerVPLocation,
-		PlayerReachEnd,
-		FCollisionObjectQueryParams(ECollisionChannel::ECC_PhysicsBody),
-		FCollisionQueryParams(FName(TEXT("")), false, GetOwner())
-	);
-
-	return HitResult;
+	return PlayerVPLocation + (PlayerVPRotation.Vector() * ReachLength);
 }

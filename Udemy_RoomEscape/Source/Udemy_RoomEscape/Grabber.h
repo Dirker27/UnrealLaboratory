@@ -32,6 +32,8 @@ public:
 	// Drop whatever may be grabbed
 	void Release();
 
+	void DrawReachLine();
+
 private:
 	UPROPERTY(EditAnywhere)
 	float ReachLength = 100.0f;
@@ -46,4 +48,6 @@ private:
 	void BindInput();
 
 	const FHitResult GetFirstPhysicsBodyInReach();
+	FVector CalculateReachLineStart();
+	FVector CalculateReachLineEnd();
 };
