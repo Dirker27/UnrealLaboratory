@@ -7,7 +7,7 @@
 #include "Engine/TriggerVolume.h"
 #include "OpenDoor.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnOpenRequest);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FDoorEvent);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class UDEMY_ROOMESCAPE_API UOpenDoor : public UActorComponent
@@ -27,25 +27,20 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UPROPERTY(BlueprintAssignable)
-	FOnOpenRequest OnOpenRequest;
+	FDoorEvent OnOpen;
+
+	UPROPERTY(BlueprintAssignable)
+	FDoorEvent OnClose;
 
 private:
 	UPROPERTY(EditAnywhere)
-	float OpenAngle = 85.0f;
-	UPROPERTY(EditAnywhere)
-	float ClosedAngle = 0.0f;
-	UPROPERTY(EditAnywhere)
-	float DoorCloseDelay = 1.5f;
-	UPROPERTY(EditAnywhere)
-	float TotalTriggerMass = 25.0f;
+	float TriggerMass = 25.0f;
 
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* PressurePlate = nullptr;
 
 private:
 	AActor* Owner;
-
-	float LastTimeDoorOpened = 0.0f;
 
 	// Opens door to specified OpenAngle
 	void Open();
