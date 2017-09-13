@@ -26,6 +26,11 @@ void UOpenDoor::BeginPlay()
 	LastTimeDoorOpened = GetWorld()->GetTimeSeconds();
 
 	Close();
+
+	if (!PressurePlate)
+	{
+		UE_LOG(LogTemp, Error, TEXT("[OpenDoor] Missing required component: PressurePlate."));
+	}
 }
 
 
@@ -64,7 +69,10 @@ float UOpenDoor::CalculateTotalMassOfActorsOnPlate()
 	float TotalMass = 0.f;
 
 	TArray<AActor*> OverlappingActors;
-	PressurePlate->GetOverlappingActors(OUT OverlappingActors);
+	if (PressurePlate) // if PressurePlate != nullptr
+	{
+		PressurePlate->GetOverlappingActors(OUT OverlappingActors);
+	}
 
 	for (auto* a : OverlappingActors)
 	{

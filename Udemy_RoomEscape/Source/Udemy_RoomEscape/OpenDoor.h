@@ -36,7 +36,7 @@ private:
 	float TotalTriggerMass = 25.0f;
 
 	UPROPERTY(EditAnywhere)
-	ATriggerVolume* PressurePlate;
+	ATriggerVolume* PressurePlate = nullptr;
 
 private:
 	AActor* Owner;

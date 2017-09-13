@@ -32,7 +32,7 @@ void UGrabber::BeginPlay()
 void UGrabber::ValidatePhysicsHandle()
 {
 	PhysicsHandle = GetOwner()->FindComponentByClass<UPhysicsHandleComponent>();
-	if (!PhysicsHandle)
+	if (! PhysicsHandle)
 	{
 		UE_LOG(LogTemp, Error, TEXT("[Grabber] Missing required component: PhysicsHandle."));
 	}
@@ -45,7 +45,7 @@ void UGrabber::TickComponent(float DeltaTime, ELevelTick TickType, FActorCompone
 
 	///- If we've got something, move it -----------------=
 	///
-	if (PhysicsHandle->GrabbedComponent)
+	if (PhysicsHandle && PhysicsHandle->GrabbedComponent)
 	{
 		FVector NewGrabbedLocation = CalculateReachLineEnd();
 		PhysicsHandle->SetTargetLocation(NewGrabbedLocation);
@@ -79,18 +79,22 @@ void UGrabber::Grab()
 
 	if (HitActor) // if HitActor != nullptr
 	{
-		PhysicsHandle->GrabComponent(
-			ComponentToGrab,
-			NAME_None,
-			ComponentToGrab->GetOwner()->GetActorLocation(),
-			true
-		);
-		UE_LOG(LogTemp, Warning, TEXT("[Grabber] Currently Grabbing Actor[%s]."), *HitActor->GetName());
+		if (PhysicsHandle) // if PhysicsHandle != nullptr
+		{
+			PhysicsHandle->GrabComponent(
+				ComponentToGrab,
+				NAME_None,
+				ComponentToGrab->GetOwner()->GetActorLocation(),
+				true
+			);
+			UE_LOG(LogTemp, Warning, TEXT("[Grabber] Currently Grabbing Actor[%s]."), *HitActor->GetName());
+		}
 	}
 }
 
 void UGrabber::Release()
 {
+	if (! PhysicsHandle) { return; }
 	PhysicsHandle->ReleaseComponent();
 	UE_LOG(LogTemp, Warning, TEXT("[Grabber] Released Grab."));
 }
