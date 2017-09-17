@@ -1,0 +1,723 @@
+﻿Log file open, 09/16/17 21:43:59
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: GeometricEscape
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1316755789) SRandInit(-1316755789).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.155312
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Unreal/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.17-04.44.00:332][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.17-04.44.00:332][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.17-04.44.00:341][  0]LogInit: Computer: SONYA
+[2017.09.17-04.44.00:341][  0]LogInit: User: Dirk
+[2017.09.17-04.44.00:341][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.17-04.44.00:341][  0]LogInit: High frequency timer resolution =3.906249 MHz
+[2017.09.17-04.44.00:341][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.09.17-04.44.00:341][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.17-04.44.00:341][  0]LogMemory: Process Physical Memory: 278.50 MB used, 278.50 MB peak
+[2017.09.17-04.44.00:341][  0]LogMemory: Process Virtual Memory: 274.25 MB used, 274.25 MB peak
+[2017.09.17-04.44.00:341][  0]LogMemory: Physical Memory: 5992.44 MB used,  10343.20 MB free, 16335.64 MB total
+[2017.09.17-04.44.00:341][  0]LogMemory: Virtual Memory: 669.07 MB used,  10343.20 MB free, 134217728.00 MB total
+[2017.09.17-04.44.00:449][  0]LogInit: Using OS detected language (en-US).
+[2017.09.17-04.44.00:449][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.17-04.44.00:451][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.17-04.44.00:999][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.17-04.44.01:033][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.09.17-04.44.01:033][  0]LogD3D11RHI:       4059/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.17-04.44.01:034][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.17-04.44.01:034][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.17-04.44.01:034][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.17-04.44.01:039][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.17-04.44.01:039][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.17-04.44.01:039][  0]LogWindows: EnumDisplayDevices:
+[2017.09.17-04.44.01:039][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.09.17-04.44.01:039][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.09.17-04.44.01:039][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.09.17-04.44.01:040][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.09.17-04.44.01:040][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.17-04.44.01:040][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.09.17-04.44.01:040][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.09.17-04.44.01:040][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.09.17-04.44.01:040][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.17-04.44.01:064][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.17-04.44.01:074][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.17-04.44.01:118][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Intermediate/Shaders/WorkingDirectory/17736/).
+[2017.09.17-04.44.01:118][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dirk/AppData/Local/Temp/UnrealShaderWorkingDir/4A0503A440B8C7A203195B9B2096B9F1/'.
+[2017.09.17-04.44.01:118][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.17-04.44.01:869][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.17-04.44.01:905][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.17-04.44.01:941][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.17-04.44.01:976][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.17-04.44.02:017][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.17-04.44.02:056][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.17-04.44.02:095][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.17-04.44.02:132][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.17-04.44.02:162][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.17-04.44.02:197][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.17-04.44.02:231][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.17-04.44.02:266][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.17-04.44.02:300][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.17-04.44.02:334][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.17-04.44.02:368][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.17-04.44.02:438][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.17-04.44.02:438][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.17-04.44.02:464][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.17-04.44.02:534][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.17-04.44.02:557][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.17-04.44.02:592][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.17-04.44.02:627][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.17-04.44.02:661][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.17-04.44.02:696][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.17-04.44.02:696][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.17-04.44.03:027][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.17-04.44.03:108][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Dirk/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.17-04.44.03:108][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dirk/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.17-04.44.03:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.17-04.44.03:108][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.17-04.44.03:108][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.17-04.44.03:108][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.17-04.44.03:121][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.17-04.44.03:133][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dirk/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.17-04.44.03:141][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.17-04.44.03:142][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.17-04.44.03:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.17-04.44.03:142][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.17-04.44.03:352][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2017.09.17-04.44.03:442][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.17-04.44.03:557][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.17-04.44.03:784][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.17-04.44.03:813][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.17-04.44.03:813][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.17-04.44.03:813][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.17-04.44.03:813][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.17-04.44.03:813][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.17-04.44.04:105][  0]LogNetVersion: GeometricEscape , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1261618581)
+[2017.09.17-04.44.04:275][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.039495 seconds
+[2017.09.17-04.44.04:280][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.17-04.44.04:280][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.17-04.44.04:280][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.17-04.44.04:326][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.17-04.44.06:244][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.17-04.44.06:283][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.17-04.44.06:758][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.17-04.44.07:060][  0]SourceControl: Source control is disabled
+[2017.09.17-04.44.07:061][  0]SourceControl: Source control is disabled
+[2017.09.17-04.44.07:095][  0]SourceControl: Source control is disabled
+[2017.09.17-04.44.07:129][  0]SourceControl: Source control is disabled
+[2017.09.17-04.44.07:539][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.17-04.44.07:710][  0]LogOcInput: OculusInput pre-init called
+[2017.09.17-04.44.07:894][  0]LogEngine: Initializing Engine...
+[2017.09.17-04.44.07:896][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.17-04.44.08:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.17-04.44.08:082][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.17-04.44.08:182][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.17-04.44.08:196][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.17-04.44.08:210][  0]LogInit: FAudioDevice initialized.
+[2017.09.17-04.44.08:292][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/Dirk/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.17-04.44.08:307][  0]LogInit: Texture streaming: Enabled
+[2017.09.17-04.44.08:389][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.17-04.44.08:551][  0]LogInit: Transaction tracking system initialized
+[2017.09.17-04.44.08:776][  0]BlueprintLog: New page: Editor Load
+[2017.09.17-04.44.09:422][  0]LocalizationService: Localization service is disabled
+[2017.09.17-04.44.09:901][  0]LogConsoleResponse: Display: 
+[2017.09.17-04.44.10:037][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/' took 0.01s
+[2017.09.17-04.44.10:037][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.17-04.44.10:037][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.17-04.44.10:037][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.17-04.44.10:762][  0]SourceControl: Source control is disabled
+[2017.09.17-04.44.10:769][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Unreal/UE_4.17/FeaturePacks/StarterContent.upack)
+[2017.09.17-04.44.10:782][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.09.17-04.44.10:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.09.17-04.44.10:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.09.17-04.44.10:804][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.09.17-04.44.10:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.09.17-04.44.10:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.09.17-04.44.10:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.09.17-04.44.10:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.09.17-04.44.10:837][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.09.17-04.44.10:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.09.17-04.44.10:850][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.09.17-04.44.10:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.09.17-04.44.10:863][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.09.17-04.44.10:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.09.17-04.44.10:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.09.17-04.44.10:881][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.09.17-04.44.10:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.09.17-04.44.10:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.09.17-04.44.10:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Fire01.uasset"
+[2017.09.17-04.44.10:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.09.17-04.44.10:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.09.17-04.44.10:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.09.17-04.44.10:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Light01.uasset"
+[2017.09.17-04.44.10:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.09.17-04.44.10:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Light02.uasset"
+[2017.09.17-04.44.10:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.09.17-04.44.10:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.09.17-04.44.10:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.09.17-04.44.10:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.09.17-04.44.10:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.09.17-04.44.10:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.09.17-04.44.11:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.09.17-04.44.11:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.09.17-04.44.11:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.09.17-04.44.11:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Steam01.uasset"
+[2017.09.17-04.44.11:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.09.17-04.44.11:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.09.17-04.44.11:053][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.09.17-04.44.11:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.09.17-04.44.11:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.09.17-04.44.11:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.09.17-04.44.11:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.09.17-04.44.11:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.09.17-04.44.11:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.09.17-04.44.11:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.09.17-04.44.11:105][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.09.17-04.44.11:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.09.17-04.44.11:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.09.17-04.44.11:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.09.17-04.44.11:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.09.17-04.44.11:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.09.17-04.44.11:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.09.17-04.44.11:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.09.17-04.44.11:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.09.17-04.44.11:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.09.17-04.44.11:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.09.17-04.44.11:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.09.17-04.44.11:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Maps/StarterMap.umap"
+[2017.09.17-04.44.11:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.09.17-04.44.11:493][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.09.17-04.44.11:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.09.17-04.44.11:507][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.09.17-04.44.11:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.09.17-04.44.11:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.09.17-04.44.11:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.09.17-04.44.11:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.09.17-04.44.11:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.09.17-04.44.11:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.09.17-04.44.11:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.09.17-04.44.11:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.09.17-04.44.11:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.09.17-04.44.11:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.09.17-04.44.11:583][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.09.17-04.44.11:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.09.17-04.44.11:596][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.09.17-04.44.11:604][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.09.17-04.44.11:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.09.17-04.44.11:617][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.09.17-04.44.11:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.09.17-04.44.11:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.09.17-04.44.11:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.09.17-04.44.11:654][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.09.17-04.44.11:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.09.17-04.44.11:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.09.17-04.44.11:673][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.09.17-04.44.11:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.09.17-04.44.11:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.09.17-04.44.11:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.09.17-04.44.11:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.09.17-04.44.11:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.09.17-04.44.11:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.09.17-04.44.11:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.09.17-04.44.11:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.09.17-04.44.11:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.09.17-04.44.11:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.09.17-04.44.11:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.09.17-04.44.11:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.09.17-04.44.11:762][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.09.17-04.44.11:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.09.17-04.44.11:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.09.17-04.44.11:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.09.17-04.44.11:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.09.17-04.44.11:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.09.17-04.44.11:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.09.17-04.44.11:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.09.17-04.44.11:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.09.17-04.44.11:830][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.09.17-04.44.11:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.09.17-04.44.11:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.09.17-04.44.11:853][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.09.17-04.44.11:861][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.09.17-04.44.11:869][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.09.17-04.44.11:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.09.17-04.44.11:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.09.17-04.44.11:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.09.17-04.44.11:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.09.17-04.44.11:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.09.17-04.44.11:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.09.17-04.44.11:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.09.17-04.44.11:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.09.17-04.44.11:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.09.17-04.44.11:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.09.17-04.44.11:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.09.17-04.44.11:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_Door.uasset"
+[2017.09.17-04.44.11:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.09.17-04.44.11:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.09.17-04.44.11:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.09.17-04.44.11:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.09.17-04.44.12:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.09.17-04.44.12:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.09.17-04.44.12:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.09.17-04.44.12:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.09.17-04.44.12:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.09.17-04.44.12:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.09.17-04.44.12:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.09.17-04.44.12:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.09.17-04.44.12:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.09.17-04.44.12:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.09.17-04.44.12:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.09.17-04.44.12:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.09.17-04.44.12:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.09.17-04.44.12:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.09.17-04.44.12:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.09.17-04.44.12:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.09.17-04.44.12:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.09.17-04.44.12:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.09.17-04.44.12:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.09.17-04.44.12:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.09.17-04.44.12:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.09.17-04.44.12:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.09.17-04.44.12:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.09.17-04.44.12:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.09.17-04.44.12:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.09.17-04.44.12:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.09.17-04.44.12:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.09.17-04.44.12:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.09.17-04.44.12:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.09.17-04.44.12:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.09.17-04.44.12:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.09.17-04.44.12:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.09.17-04.44.12:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.09.17-04.44.12:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.09.17-04.44.12:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.09.17-04.44.12:260][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.09.17-04.44.12:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.09.17-04.44.12:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.09.17-04.44.12:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.09.17-04.44.12:287][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.09.17-04.44.12:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.09.17-04.44.12:340][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.09.17-04.44.12:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.09.17-04.44.12:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.09.17-04.44.12:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.09.17-04.44.12:446][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.09.17-04.44.12:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.09.17-04.44.12:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.09.17-04.44.12:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.09.17-04.44.12:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.09.17-04.44.12:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.09.17-04.44.12:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.09.17-04.44.12:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.09.17-04.44.12:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.09.17-04.44.12:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.09.17-04.44.12:686][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.09.17-04.44.12:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.09.17-04.44.12:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.09.17-04.44.12:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.09.17-04.44.12:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.09.17-04.44.12:729][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.09.17-04.44.12:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.09.17-04.44.12:775][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.09.17-04.44.12:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.09.17-04.44.12:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.09.17-04.44.12:844][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.09.17-04.44.12:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.09.17-04.44.12:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.09.17-04.44.12:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.09.17-04.44.12:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.09.17-04.44.12:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.09.17-04.44.13:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.09.17-04.44.13:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.09.17-04.44.13:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.09.17-04.44.13:088][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.09.17-04.44.13:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.09.17-04.44.13:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.09.17-04.44.13:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.09.17-04.44.13:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.09.17-04.44.13:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.09.17-04.44.13:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.09.17-04.44.13:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.09.17-04.44.13:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.09.17-04.44.13:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.09.17-04.44.13:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.09.17-04.44.13:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.09.17-04.44.13:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.09.17-04.44.13:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.09.17-04.44.13:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.09.17-04.44.13:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.09.17-04.44.13:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.09.17-04.44.13:367][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.09.17-04.44.13:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.09.17-04.44.13:437][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.09.17-04.44.13:447][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.09.17-04.44.13:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.09.17-04.44.13:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.09.17-04.44.13:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.09.17-04.44.13:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.09.17-04.44.13:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.09.17-04.44.13:601][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.09.17-04.44.13:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.09.17-04.44.13:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.09.17-04.44.13:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.09.17-04.44.13:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.09.17-04.44.13:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.09.17-04.44.13:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.09.17-04.44.13:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.09.17-04.44.13:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.09.17-04.44.13:815][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.09.17-04.44.13:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.09.17-04.44.13:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.09.17-04.44.13:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.09.17-04.44.13:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.09.17-04.44.13:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.09.17-04.44.13:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.09.17-04.44.14:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.09.17-04.44.14:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.09.17-04.44.14:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.09.17-04.44.14:062][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.09.17-04.44.14:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.09.17-04.44.14:080][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.09.17-04.44.14:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.09.17-04.44.14:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.09.17-04.44.14:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.09.17-04.44.14:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.09.17-04.44.14:128][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.09.17-04.44.14:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.09.17-04.44.14:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.09.17-04.44.14:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.09.17-04.44.14:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.09.17-04.44.14:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.09.17-04.44.14:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.09.17-04.44.14:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.09.17-04.44.14:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.09.17-04.44.14:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.09.17-04.44.14:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.09.17-04.44.14:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.09.17-04.44.14:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.09.17-04.44.14:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.09.17-04.44.14:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.09.17-04.44.14:388][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.09.17-04.44.14:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.09.17-04.44.14:516][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2017.09.17-04.44.14:652][  0]LogSavePackage: Save=17.69ms
+[2017.09.17-04.44.14:652][  0]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/Floor_400x400EFA880474B71D6BCA3ADF3890575A2DD.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.09.17-04.44.14:658][  0]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.09.17-04.44.14:658][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2017.09.17-04.44.14:662][  0]Cmd: MAP LOAD FILE="../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.17-04.44.14:662][  0]LightingResults: New page: Lighting Build
+[2017.09.17-04.44.14:692][  0]MapCheck: New page: Map Check
+[2017.09.17-04.44.14:692][  0]LightingResults: New page: Lighting Build
+[2017.09.17-04.44.14:987][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.09.17-04.44.15:003][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.17-04.44.15:016][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.17-04.44.15:056][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.163ms to complete.
+[2017.09.17-04.44.15:056][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.395
+[2017.09.17-04.44.15:483][  0]LogCollectionManager: Loaded 0 collections in 0.001100 seconds
+[2017.09.17-04.44.15:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/Collections/' took 0.01s
+[2017.09.17-04.44.15:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/Developers/Dirk/Collections/' took 0.01s
+[2017.09.17-04.44.15:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/Collections/' took 0.01s
+[2017.09.17-04.44.15:575][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.17-04.44.15:587][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2387 classes and 502 folders.
+[2017.09.17-04.44.15:640][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.09.17-04.44.15:932][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.09.17-04.44.16:024][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.17-04.44.16:029][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.17-04.44.16:036][  0]LogSlate: Took 0.004542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.17-04.44.16:074][  0]LogRenderer: Reallocating scene render targets to support 1652x600 Format 10 NumSamples 1 (Frame:1).
+[2017.09.17-04.44.16:124][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.17-04.44.16:225][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.09.17-04.44.16:225][  0]LogLoad: (Engine Initialization) Total time: 17.07 seconds
+[2017.09.17-04.44.16:225][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.17-04.44.16:225][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.09.17-04.44.16:225][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.09.17-04.44.16:236][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.17-04.44.16:257][  0]LogAssetRegistry: Asset discovery search completed in 12.9256 seconds
+[2017.09.17-04.44.16:258][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.17-04.44.16:258][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2017.09.17-04.44.16:343][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.17-04.44.40:913][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.17-05.48.31:863][613]LogSlate: Took 0.004368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.17-05.50.39:424][133]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.17-05.50.39:565][133]LogAIModule: Creating AISystem for world K8_Map
+[2017.09.17-05.50.39:634][133]LogSavePackage: Save=39.21ms
+[2017.09.17-05.50.39:634][133]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_MapC289E34646796C4764FFB7A463CAC5C8.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap'
+[2017.09.17-05.50.39:636][133]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap
+[2017.09.17-05.50.39:642][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/K8/K8_Map_BuiltData" FILE="../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset" SILENT=true
+[2017.09.17-05.50.39:672][133]LogSavePackage: Save=27.74ms
+[2017.09.17-05.50.39:672][133]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_Map_BuiltDataA3D7A7E941709B747AF0139A1A7A5A6C.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset'
+[2017.09.17-05.50.39:674][133]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset
+[2017.09.17-05.50.39:679][133]LogFileHelpers: Saving map 'K8_Map' took 0.302
+[2017.09.17-05.50.39:680][133]Cmd: MAP LOAD FILE="../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.17-05.50.39:691][133]LightingResults: New page: Lighting Build
+[2017.09.17-05.50.39:692][133]LoadErrors: New page: Loading map: K8_Map.umap
+[2017.09.17-05.50.39:696][133]MapCheck: New page: Map Check
+[2017.09.17-05.50.39:696][133]LightingResults: New page: Lighting Build
+[2017.09.17-05.50.39:717][133]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.17-05.50.39:757][133]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.17-05.50.39:798][133]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.81ms to complete.
+[2017.09.17-05.50.39:798][133]LogFileHelpers: Loading map 'K8_Map' took 0.119
+[2017.09.17-05.50.53:042][698]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-05.50.54:372][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.17-05.50.55:793][ 14]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2017.09.17-05.50.57:073][162]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Chair)
+[2017.09.17-05.50.57:767][240]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Table)
+[2017.09.17-05.50.58:667][343]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Chair)
+[2017.09.17-05.50.59:785][472]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Statue)
+[2017.09.17-05.51.01:280][646]Cmd: DELETE
+[2017.09.17-05.51.01:280][646]Cmd: ACTOR DELETE
+[2017.09.17-05.51.01:286][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.17-05.51.01:287][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.17-05.51.01:287][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.17-05.51.01:287][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.17-05.51.01:287][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.17-05.51.01:287][646]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.17-05.51.01:295][646]LogEditorActor: Deleted 6 Actors (0.010 secs)
+[2017.09.17-05.51.04:570][ 38]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.09.17-05.51.24:110][373]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-05.51.25:491][531]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-05.51.28:544][895]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-05.51.47:684][172]LogActorFactory: Actor Factory created Cube
+[2017.09.17-05.51.47:922][199]LogActorFactory: Actor Factory created Cube
+[2017.09.17-05.51.48:736][296]LogActorFactory: Actor Factory created Cube
+[2017.09.17-05.52.17:620][708]LogRenderer: Reallocating scene render targets to support 1652x624 Format 10 NumSamples 1 (Frame:9107).
+[2017.09.17-05.52.17:660][709]LogRenderer: Reallocating scene render targets to support 1652x656 Format 10 NumSamples 1 (Frame:9109).
+[2017.09.17-05.52.17:701][710]LogRenderer: Reallocating scene render targets to support 1652x672 Format 10 NumSamples 1 (Frame:9111).
+[2017.09.17-05.52.17:744][711]LogRenderer: Reallocating scene render targets to support 1652x680 Format 10 NumSamples 1 (Frame:9113).
+[2017.09.17-05.52.17:820][712]LogRenderer: Reallocating scene render targets to support 1652x684 Format 10 NumSamples 1 (Frame:9115).
+[2017.09.17-05.56.09:981][379]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2017.09.17-05.56.10:683][460]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2017.09.17-05.56.11:144][512]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2017.09.17-05.56.12:258][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.17-05.56.46:719][670]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-05.56.48:332][859]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.17-05.58.00:336][472]LogEditorActor: Deleted Actor: SkyLight
+[2017.09.17-05.58.00:344][472]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.09.17-05.59.23:470][363]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-05.59.39:269][227]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.09.17-05.59.44:443][840]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.09.17-05.59.44:443][840]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.09.17-05.59.44:451][840]LogEditorActor: Deleted 2 Actors (0.009 secs)
+[2017.09.17-06.02.37:946][332]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.17-06.02.46:988][394]LogSavePackage: Save=26.75ms
+[2017.09.17-06.02.46:988][394]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_Map_Auto105E629C94EC5CE68783D588599124EB9.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/Autosaves/Game/K8/K8_Map_Auto1.umap'
+[2017.09.17-06.02.46:989][394]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/Autosaves/Game/K8/K8_Map_Auto1.umap
+[2017.09.17-06.02.46:993][394]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/K8/K8_Map' took 0.048
+[2017.09.17-06.02.46:993][394]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.048
+[2017.09.17-06.03.35:063][ 37]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.17-06.03.35:838][121]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.17-06.03.36:640][214]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.17-06.03.37:347][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.17-06.04.38:946][497]LogSavePackage: Save=32.84ms
+[2017.09.17-06.04.38:946][497]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_MapA4CC5E5E498EA967642D498AEAB08ECA.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap'
+[2017.09.17-06.04.38:954][497]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap
+[2017.09.17-06.04.38:985][497]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/K8/K8_Map_BuiltData" FILE="../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset" SILENT=true
+[2017.09.17-06.04.39:021][497]LogSavePackage: Save=29.80ms
+[2017.09.17-06.04.39:021][497]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_Map_BuiltData8B4D6E844E9C5FD3539C3FAA91C52EA0.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset'
+[2017.09.17-06.04.39:023][497]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset
+[2017.09.17-06.09.42:596][843]LogActorFactory: Actor Factory created Cube
+[2017.09.17-06.09.43:004][887]LogActorFactory: Actor Factory created Cube
+[2017.09.17-06.10.09:715][945]Cmd: POLY SELECT MEMORY UNION
+[2017.09.17-06.10.12:481][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.17-06.10.51:319][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.09.17-06.12.11:439][640]Cmd: TRANSACTION UNDO
+[2017.09.17-06.12.11:439][640]LogEditorTransaction: Undo Move Actors
+[2017.09.17-06.15.06:447][ 75]LogRenderer: Reallocating scene render targets to support 1652x792 Format 10 NumSamples 1 (Frame:1).
+[2017.09.17-06.15.12:097][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_W2)
+[2017.09.17-06.16.56:678][834]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.17-06.17.07:078][927]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_W2)
+[2017.09.17-06.17.42:455][ 91]LogSavePackage: Save=29.86ms
+[2017.09.17-06.17.42:455][ 91]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_Map_Auto2329BF6C943E4493EF7CF66B480DC9050.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/Autosaves/Game/K8/K8_Map_Auto2.umap'
+[2017.09.17-06.17.42:457][ 91]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/Autosaves/Game/K8/K8_Map_Auto2.umap
+[2017.09.17-06.17.42:461][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/K8/K8_Map' took 0.052
+[2017.09.17-06.17.42:461][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.052
+[2017.09.17-06.19.22:692][823]Cmd: TRANSACTION UNDO
+[2017.09.17-06.19.22:692][823]LogEditorTransaction: Undo Move Actors
+[2017.09.17-06.19.56:769][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW)
+[2017.09.17-06.20.09:152][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW2)
+[2017.09.17-06.20.18:877][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW)
+[2017.09.17-06.20.40:976][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW2)
+[2017.09.17-06.20.41:741][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW)
+[2017.09.17-06.21.02:510][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW2)
+[2017.09.17-06.21.08:480][135]Cmd: TRANSACTION UNDO
+[2017.09.17-06.21.08:480][135]LogEditorTransaction: Undo Move Actors
+[2017.09.17-06.21.35:854][316]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW2)
+[2017.09.17-06.21.43:661][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW3)
+[2017.09.17-06.22.12:313][572]LogSavePackage: Save=32.60ms
+[2017.09.17-06.22.12:314][572]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_MapB651D12D460F3B148B97E780C620784A.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap'
+[2017.09.17-06.22.12:321][572]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap
+[2017.09.17-06.22.12:345][572]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/K8/K8_Map_BuiltData" FILE="../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset" SILENT=true
+[2017.09.17-06.22.12:378][572]LogSavePackage: Save=27.31ms
+[2017.09.17-06.22.12:378][572]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_Map_BuiltDataA2EE6537475264CE7F3F90979839F567.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset'
+[2017.09.17-06.22.12:379][572]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset
+[2017.09.17-06.22.21:162][591]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2017.09.17-06.22.22:133][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_W)
+[2017.09.17-06.22.23:017][795]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_NW)
+[2017.09.17-06.22.23:451][840]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_N)
+[2017.09.17-06.22.23:836][879]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_NE)
+[2017.09.17-06.22.25:126][ 18]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_E)
+[2017.09.17-06.22.25:977][112]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_NE)
+[2017.09.17-06.22.26:645][181]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_SE)
+[2017.09.17-06.22.27:190][239]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_S)
+[2017.09.17-06.22.27:712][294]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_SW)
+[2017.09.17-06.22.40:738][814]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-06.22.44:274][226]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.17-06.22.48:857][743]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_NW)
+[2017.09.17-06.22.50:279][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_N)
+[2017.09.17-06.22.51:268][ 18]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_NE)
+[2017.09.17-06.22.52:204][123]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_NW)
+[2017.09.17-06.22.53:276][241]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_E)
+[2017.09.17-06.22.54:198][343]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_W)
+[2017.09.17-06.22.54:684][393]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_SW)
+[2017.09.17-06.22.55:415][472]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_S)
+[2017.09.17-06.22.56:071][542]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_SE)
+[2017.09.17-06.23.05:800][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NE)
+[2017.09.17-06.23.20:825][351]MapCheck: New page: Map Check
+[2017.09.17-06.23.20:836][351]LightingResults: New page: Lighting Build - Sep 16, 2017, 4:23:20 PM
+[2017.09.17-06.23.20:884][351]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.09.17-06.23.20:969][351]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.09.17-06.23.20:984][351]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.09.17-06.23.22:004][351]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.09.17-06.23.22:004][351]LogSwarmInterface: [TryOpenConnection] Local Process ID is 17736
+[2017.09.17-06.23.24:873][351]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.09.17-06.23.24:873][351]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.09.17-06.23.24:873][351]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.09.17-06.23.24:873][351]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.09.17-06.23.24:873][351]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.09.17-06.23.24:873][351]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.09.17-06.23.25:024][351]LogEditorBuildUtils: Build time 0:04
+[2017.09.17-06.23.25:057][352]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_AssetPlatform, compiling. 
+[2017.09.17-06.23.25:072][352]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_AssetPlatform, compiling. 
+[2017.09.17-06.23.25:099][353]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.09.17-06.23.25:103][353]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2017.09.17-06.23.27:608][440]Job is a success!
+[2017.09.17-06.23.27:741][441]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.09.17-06.23.27:741][441]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.09.17-06.23.27:741][441]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.09.17-06.23.27:741][441]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.09.17-06.23.27:741][441]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2017.09.17-06.23.27:741][441]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X64)
+[2017.09.17-06.23.27:756][441]Lightmass on SONYA: 869 ms total, 119 ms importing, 33 ms setup, 305 ms photons, 381 ms processing, 0 ms extra exporting [10/10 mappings]. Threads: 2.50 sec total, 837 ms processing.
+[2017.09.17-06.23.27:772][441]LogStaticLightingSystem: Illumination: 6.91 sec (52 ms encoding lightmaps, 22 ms encoding shadowmaps)
+[2017.09.17-06.23.27:772][441]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.09.17-06.23.27:772][441]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.09.17-06.23.27:875][441]DumpUnbuiltLightIteractions
+[2017.09.17-06.23.27:875][441]Lights with unbuilt interactions: 0
+[2017.09.17-06.23.27:875][441]
+[2017.09.17-06.23.27:875][441]Primitives with unbuilt interactions: 0
+[2017.09.17-06.23.27:887][442]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.09.17-06.23.27:887][442]MapCheck: New page: K8_Map - Sep 16, 2017, 4:23:27 PM
+[2017.09.17-06.23.27:940][442]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.918ms to complete.
+[2017.09.17-06.24.27:364][533]LogSavePackage: Save=31.21ms
+[2017.09.17-06.24.27:364][533]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_MapFE31D2984E55AE110CE54584340CB1D1.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap'
+[2017.09.17-06.24.27:367][533]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap
+[2017.09.17-06.24.27:391][533]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/K8/K8_Map_BuiltData" FILE="../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset" SILENT=true
+[2017.09.17-06.24.27:412][533]LogSavePackage: Save=18.98ms
+[2017.09.17-06.24.27:412][533]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_Map_BuiltDataB0DBCE164B06314880D04780FF63FB1F.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset'
+[2017.09.17-06.24.27:415][533]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset
+[2017.09.17-06.24.35:936][415]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GeometricEscape
+[2017.09.17-06.24.35:936][415]LogTemp: CWD: C:\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.17-06.24.35:936][415]LogTemp: Initial Dir: C:\Unreal\UE_4.17
+[2017.09.17-06.24.35:936][415]LogTemp: Env CWD: C:\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.09.17-06.24.35:956][416]LogTemp: BranchPath = SONYA/C/Unreal/UE_4.17/Engine/Binaries --- GameBranchPath = SONYA/C/Unreal/UE_4.17/Engine/Binaries
+[2017.09.17-06.24.35:970][417]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dirk\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
