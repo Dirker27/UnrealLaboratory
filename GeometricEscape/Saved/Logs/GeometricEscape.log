@@ -721,3 +721,84 @@ LogInit: Object subsystem initialized
 [2017.09.17-06.24.35:936][415]LogTemp: Env CWD: C:\Unreal\UE_4.17\Engine\Binaries\DotNET\IOS
 [2017.09.17-06.24.35:956][416]LogTemp: BranchPath = SONYA/C/Unreal/UE_4.17/Engine/Binaries --- GameBranchPath = SONYA/C/Unreal/UE_4.17/Engine/Binaries
 [2017.09.17-06.24.35:970][417]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Dirk\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.09.17-06.39.48:997][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.17-06.40.37:371][593]Cmd: TRANSACTION UNDO
+[2017.09.17-06.40.37:371][593]LogEditorTransaction: Undo Set actor scale
+[2017.09.17-06.40.40:131][897]Cmd: TRANSACTION UNDO
+[2017.09.17-06.40.40:131][897]LogEditorTransaction: Undo Set actor scale
+[2017.09.17-06.40.55:181][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_S)
+[2017.09.17-06.41.21:360][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_N)
+[2017.09.17-06.41.27:715][418]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_W)
+[2017.09.17-06.41.38:981][726]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW)
+[2017.09.17-06.42.04:945][713]LogSavePackage: Save=32.19ms
+[2017.09.17-06.42.04:945][713]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_Map_Auto3B5B1A859481F55C74117709EFF86D639.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/Autosaves/Game/K8/K8_Map_Auto3.umap'
+[2017.09.17-06.42.04:946][713]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/Autosaves/Game/K8/K8_Map_Auto3.umap
+[2017.09.17-06.42.04:948][713]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/K8/K8_Map' took 0.051
+[2017.09.17-06.42.04:948][713]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.051
+[2017.09.17-06.42.35:968][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.17-06.42.47:638][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_S)
+[2017.09.17-06.43.05:815][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_N)
+[2017.09.17-06.43.26:440][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_S)
+[2017.09.17-06.43.43:108][112]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_W)
+[2017.09.17-06.44.23:383][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_W)
+[2017.09.17-06.44.36:354][204]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_E)
+[2017.09.17-06.46.31:570][694]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_W)
+[2017.09.17-06.46.44:969][240]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_N)
+[2017.09.17-06.46.45:743][327]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_S)
+[2017.09.17-06.46.54:618][342]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-06.46.57:170][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NE)
+[2017.09.17-06.46.58:010][733]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_NW)
+[2017.09.17-06.47.00:293][996]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_SW)
+[2017.09.17-06.47.01:587][144]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_SE)
+[2017.09.17-06.47.11:871][345]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-06.47.12:529][419]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_SE)
+[2017.09.17-06.48.15:635][837]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-06.48.23:865][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_SW)
+[2017.09.17-06.48.33:920][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW)
+[2017.09.17-06.48.42:109][767]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NE)
+[2017.09.17-06.48.51:486][849]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-06.49.08:347][795]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.17-06.49.08:408][795]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/K8/K8_Map.K8_Map:PersistentLevel' has LevelScriptBlueprint '/Game/K8/K8_Map.K8_Map:PersistentLevel.K8_Map' with GeneratedClass '/Game/K8/K8_Map.K8_Map_C' with ClassGeneratedBy '/Game/K8/K8_Map.K8_Map:PersistentLevel.K8_Map'
+[2017.09.17-06.49.08:409][795]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.17-06.49.08:412][795]PIE: New page: PIE session: K8_Map (Sep 16, 2017, 4:49:08 PM)
+[2017.09.17-06.49.08:413][795]LogPlayLevel: Creating play world package: /Game/K8/UEDPIE_0_K8_Map
+[2017.09.17-06.49.08:415][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002605s)
+[2017.09.17-06.49.08:417][795]LogAIModule: Creating AISystem for world K8_Map
+[2017.09.17-06.49.08:417][795]LogPlayLevel: PIE: World Init took: (0.001074s)
+[2017.09.17-06.49.08:418][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/K8/K8_Map.K8_Map to /Game/K8/UEDPIE_0_K8_Map.K8_Map (0.004817s)
+[2017.09.17-06.49.08:436][795]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.17-06.49.08:660][795]LogInit: FAudioDevice initialized.
+[2017.09.17-06.49.08:707][795]LogLoad: Game class is 'GameModeBase'
+[2017.09.17-06.49.08:721][795]LogWorld: Bringing World /Game/K8/UEDPIE_0_K8_Map.K8_Map up for play (max tick rate 0) at 2017.09.16-23.49.08
+[2017.09.17-06.49.08:722][795]LogWorld: Bringing up level for play took: 0.002690
+[2017.09.17-06.49.08:766][795]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.09.17-06.49.08:770][795]PIE: Play in editor start time for /Game/K8/UEDPIE_0_K8_Map -0.158
+[2017.09.17-06.49.08:770][795]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/K8/K8_Map.K8_Map:PersistentLevel' has LevelScriptBlueprint '/Game/K8/K8_Map.K8_Map:PersistentLevel.K8_Map' with GeneratedClass '/Game/K8/K8_Map.K8_Map_C' with ClassGeneratedBy '/Game/K8/K8_Map.K8_Map:PersistentLevel.K8_Map'
+[2017.09.17-06.49.16:327][695]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/K8/K8_Map.K8_Map:PersistentLevel' has LevelScriptBlueprint '/Game/K8/K8_Map.K8_Map:PersistentLevel.K8_Map' with GeneratedClass '/Game/K8/K8_Map.K8_Map_C' with ClassGeneratedBy '/Game/K8/K8_Map.K8_Map:PersistentLevel.K8_Map'
+[2017.09.17-06.49.16:369][695]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/K8/K8_Map.K8_Map:PersistentLevel' has LevelScriptBlueprint '/Game/K8/K8_Map.K8_Map:PersistentLevel.K8_Map' with GeneratedClass '/Game/K8/K8_Map.K8_Map_C' with ClassGeneratedBy '/Game/K8/K8_Map.K8_Map:PersistentLevel.K8_Map'
+[2017.09.17-06.50.01:218][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_E)
+[2017.09.17-06.50.01:826][  9]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_SE)
+[2017.09.17-06.50.03:885][248]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.17-06.50.04:888][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_E)
+[2017.09.17-06.50.07:836][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_W)
+[2017.09.17-06.50.10:157][978]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NW)
+[2017.09.17-06.50.11:512][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_NE)
+[2017.09.17-06.50.12:732][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_N)
+[2017.09.17-06.50.14:048][422]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_S)
+[2017.09.17-06.50.26:296][836]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_W)
+[2017.09.17-06.50.30:632][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_N)
+[2017.09.17-06.50.41:299][600]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_S)
+[2017.09.17-06.51.01:398][904]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-06.51.16:019][577]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_N)
+[2017.09.17-06.51.21:310][173]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-06.51.48:619][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.09.17-06.52.05:912][357]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-06.52.06:975][465]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-06.52.20:476][976]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.09.17-06.52.41:763][412]LogSavePackage: Save=32.69ms
+[2017.09.17-06.52.41:763][412]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_MapFC2F2B3E4527901F82E632951F0C799C.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap'
+[2017.09.17-06.52.41:766][412]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map.umap
+[2017.09.17-06.52.41:794][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/K8/K8_Map_BuiltData" FILE="../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset" SILENT=true
+[2017.09.17-06.52.41:819][412]LogSavePackage: Save=19.72ms
+[2017.09.17-06.52.41:819][412]LogSavePackage: Moving '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Saved/K8_Map_BuiltData18961F2940FAC1F25AC901AEF304E332.tmp' to '../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset'
+[2017.09.17-06.52.41:821][412]LogSavePackage: Display: Finished SavePackage ../../../../../Users/Dirk/Documents/Unreal Projects/UnrealLaboratory/GeometricEscape/Content/K8/K8_Map_BuiltData.uasset
