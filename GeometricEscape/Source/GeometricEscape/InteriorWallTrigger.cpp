@@ -39,10 +39,10 @@ void UInteriorWallTrigger::TickComponent(float DeltaTime, ELevelTick TickType, F
 			UE_LOG(LogTemp, Warning, TEXT("[InteriorWallTrigger] Initiating Retract!"));
 			OnTriggerRetract.Broadcast();
 
-			if (Retractor)
+			/*if (Retractor)
 			{
 				Retractor->Retract();
-			}
+			}*/
 		}
 	}
 }
