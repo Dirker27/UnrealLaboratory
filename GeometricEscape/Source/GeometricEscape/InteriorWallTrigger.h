@@ -25,18 +25,30 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
+	///- Engine Call-ables -------------------------------=
+	///
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	///- BluePrint Access --------------------------------=
+	///
 	UPROPERTY(BlueprintAssignable)
 	FInteriorWallTriggerEvent OnTriggerRetract;
-
 	UPROPERTY(BlueprintAssignable)
 	FInteriorWallTriggerEvent OnTriggerErect;
 
-public:
+	///- Game World Access -------------------------------=
+	///
 	UPROPERTY(EditAnywhere)
 	ATriggerVolume* ActivationPad = nullptr;
 
+	///- External API ------------------------------------=
+	///
+	// Trigger Wall Retract
+	void TriggerRetract();
+	// Trigger Wall Erect
+	void TriggerErect();
+
+private:
 	UWallRetractor* Retractor = nullptr;
 };

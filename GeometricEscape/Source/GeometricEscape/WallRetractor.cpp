@@ -33,3 +33,8 @@ void UWallRetractor::Retract()
 	Owner->SetActorLocation(NewLocation);
 }
 
+void UWallRetractor::Erect()
+{
+	Owner->SetActorLocation(InitialLocation);
+}
+

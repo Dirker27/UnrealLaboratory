@@ -4,41 +4,41 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "WallRetractor.generated.h"
+#include "ButtonAction.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FButtonActionEvent);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class GEOMETRICESCAPE_API UWallRetractor : public UActorComponent
+class GEOMETRICESCAPE_API UButtonAction : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
-	UWallRetractor();
+	UButtonAction();
 
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-public:
+public:	
 	///- Engine Call-ables -------------------------------=
 	///
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	///- Public Fields -----------------------------------=
+	///- BluePrint Access --------------------------------=
 	///
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	float RetractHeight = 0.f;
+	UPROPERTY(BlueprintAssignable)
+	FButtonActionEvent OnButtonPress;
+	UPROPERTY(BlueprintAssignable)
+	FButtonActionEvent OnButtonRelease;
 
 	///- External API ------------------------------------=
 	///
-	// Trigger Wall Retract
-	void Retract();
-	// Trigger Wall Erect
-	void Erect();
+	void Press();
+	void Release();
 
 private:
-	AActor* Owner;
-	FVector InitialLocation;
+	float TimeSinceLastButtonRelease = 0.f;
 };

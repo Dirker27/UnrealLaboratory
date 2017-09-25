@@ -47,3 +47,13 @@ void UInteriorWallTrigger::TickComponent(float DeltaTime, ELevelTick TickType, F
 	}
 }
 
+
+void UInteriorWallTrigger::TriggerRetract()
+{
+	OnTriggerRetract.Broadcast();
+}
+
+void UInteriorWallTrigger::TriggerErect()
+{
+	OnTriggerErect.Broadcast();
+}
