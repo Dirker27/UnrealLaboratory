@@ -35,12 +35,11 @@ void UButtonPusher::TickComponent(float DeltaTime, ELevelTick TickType, FActorCo
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	DrawReachLine();
-
 	LookingAtActor = GetFirstInteractableInReach().GetActor();
 	if (LookingAtActor)
 	{
 		// UE_LOG(LogTemp, Warning, TEXT("[ButtonPusher] Looking at Actor {%s}"), *LookingAtActor->GetName());
+		DrawReachLine();
 	}
 }
 
