@@ -36,11 +36,19 @@ void UButtonAction::Press()
 {
 	UE_LOG(LogTemp, Warning, TEXT("[ButtonAction] < PRESS >"));
 
+	Pressed = true;
 	OnButtonPress.Broadcast();
 }
 
 void UButtonAction::Release()
 {
-	OnButtonRelease.Broadcast();
+	UE_LOG(LogTemp, Warning, TEXT("[ButtonAction] < RELEASE >"));
 
+	Pressed = false;
+	OnButtonRelease.Broadcast();
+}
+
+bool UButtonAction::IsPressed()
+{
+	return Pressed;
 }

@@ -4,18 +4,21 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "ButtonAction.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FButtonActionEvent);
+#include "ActionReceiver.h"
+
+#include "WallController.generated.h"
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FWallControllerEvent);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class GEOMETRICESCAPE_API UButtonAction : public UActorComponent
+class GEOMETRICESCAPE_API UWallController : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
-	UButtonAction();
+	UWallController();
 
 protected:
 	// Called when the game starts
@@ -30,18 +33,16 @@ public:
 	///- BluePrint Access --------------------------------=
 	///
 	UPROPERTY(BlueprintAssignable)
-	FButtonActionEvent OnButtonPress;
+	FWallControllerEvent OnRetract;
 	UPROPERTY(BlueprintAssignable)
-	FButtonActionEvent OnButtonRelease;
+	FWallControllerEvent OnErect;
 
 	///- External API ------------------------------------=
 	///
-	void Press();
-	void Release();
-	// Get Activation
-	bool IsPressed();
+	void TriggerRetract();
+	void TriggerErect();
 
-private:
-	bool Pressed = false;
-	float TimeSinceLastButtonRelease = 0.f;
+	///- Engine Access --------------------------------------=
+	///
+	UActionReceiver* ActionReciever = nullptr;
 };

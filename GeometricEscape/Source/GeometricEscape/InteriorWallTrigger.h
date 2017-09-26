@@ -9,6 +9,14 @@
 
 #include "InteriorWallTrigger.generated.h"
 
+
+/*
+ * ****************** DEPRECATION NOTICE **************************
+ *                Use WallController Instead
+ * ****************************************************************
+ */
+
+
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FInteriorWallTriggerEvent);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )

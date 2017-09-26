@@ -4,6 +4,12 @@
 
 #define OUT
 
+/*
+* ****************** DEPRECATION NOTICE **************************
+*                Use WallController Instead
+* ****************************************************************
+*/
+
 UInteriorWallTrigger::UInteriorWallTrigger()
 {
 	PrimaryComponentTick.bCanEverTick = true;

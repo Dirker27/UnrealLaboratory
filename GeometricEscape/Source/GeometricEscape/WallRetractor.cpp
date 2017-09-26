@@ -4,6 +4,12 @@
 
 #include "GameFramework/Actor.h"
 
+/*
+ * ****************** DEPRECATION NOTICE **************************
+ *                Use WallController Instead
+ * ****************************************************************
+ */
+
 UWallRetractor::UWallRetractor()
 {
 	PrimaryComponentTick.bCanEverTick = true;

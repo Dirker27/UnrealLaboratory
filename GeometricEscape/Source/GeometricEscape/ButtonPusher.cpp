@@ -47,12 +47,10 @@ void UButtonPusher::TickComponent(float DeltaTime, ELevelTick TickType, FActorCo
 
 void UButtonPusher::BindInput()
 {
-	///- Input Component ---------------------------------=
-	///
 	Input = GetOwner()->FindComponentByClass<UInputComponent>();
 	if (Input)
 	{
-		///- Actual Bindings -----------------------------=
+		///- Action Bindings -----------------------------------=
 		///
 		Input->BindAction("INTERACT", IE_Pressed, this, &UButtonPusher::Push);
 	}

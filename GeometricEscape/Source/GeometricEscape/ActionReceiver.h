@@ -4,18 +4,21 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "ButtonAction.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FButtonActionEvent);
+#include "ButtonAction.h"
+
+#include "ActionReceiver.generated.h"
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FActionRequest);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class GEOMETRICESCAPE_API UButtonAction : public UActorComponent
+class GEOMETRICESCAPE_API UActionReceiver : public UActorComponent
 {
 	GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
-	UButtonAction();
+	UActionReceiver();
 
 protected:
 	// Called when the game starts
@@ -27,21 +30,21 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	///- BluePrint Access --------------------------------=
+	///- BluePrint Access -----------------------------------=
 	///
 	UPROPERTY(BlueprintAssignable)
-	FButtonActionEvent OnButtonPress;
-	UPROPERTY(BlueprintAssignable)
-	FButtonActionEvent OnButtonRelease;
+	FActionRequest ActionPerform;
 
-	///- External API ------------------------------------=
+	///- Engine Access --------------------------------------=
 	///
-	void Press();
-	void Release();
-	// Get Activation
-	bool IsPressed();
+	UPROPERTY(EditAnywhere)
+	AActor* Button = nullptr;
+
+	///- External API ---------------------------------------=
+	///
+	bool IsActive();
 
 private:
-	bool Pressed = false;
-	float TimeSinceLastButtonRelease = 0.f;
+	void BindActions();
+	UButtonAction* ButtonAction = nullptr;
 };

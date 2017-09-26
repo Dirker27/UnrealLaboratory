@@ -7,6 +7,12 @@
 #include "WallRetractor.generated.h"
 
 
+/*
+ * ****************** DEPRECATION NOTICE **************************
+ *                Use WallController Instead
+ * ****************************************************************
+ */
+
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class GEOMETRICESCAPE_API UWallRetractor : public UActorComponent
 {
